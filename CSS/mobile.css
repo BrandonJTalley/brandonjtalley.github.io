@@ -6,3 +6,10 @@ section {
     text-align: center;
 }
 }
+
+@media (max-width: 675px){
+.content section img {
+    width: 100%;
+}
+}
+
