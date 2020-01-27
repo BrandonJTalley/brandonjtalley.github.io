@@ -1,0 +1,159 @@
+@charset "UTF-8";
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: unna;
+  font-style: normal;
+  font-weight: 400;
+  font-size: x-large;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 100%;
+  width: 98%;
+  min-width: 320px;
+}
+footer {
+  font-size: small;
+  text-align: center;
+  clear: none;
+  position: relative;
+  width: 100%;
+  padding-top: 75px;
+  bottom: 0%;
+}
+h2 {
+  margin-left: 75px;
+}
+p {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+h1 {
+  font-size: 2.25em;
+  font-variant: small-caps;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 20px;
+}
+.card-deck {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar-brand {
+  text-decoration: underline;
+}
+section {
+  margin-left: 2.5%;
+  float: left;
+  padding-right: 20px;
+}
+main {
+  padding-left: 0px;
+  margin-left: 2.5%;
+  padding-top: 3%;
+}
+aside {
+  float: none;
+}
+.widgetlist {
+  list-style-type: none;
+  text-transform: none;
+  text-decoration: none;
+  float: none;
+  text-align: left;
+}
+.card-title {
+  font-size: 20pt;
+}
+.card-text {
+  font-size: 12pt;
+}
+.content {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
+}
+.line {
+  position: relative;
+  top: 50%;
+  width: 16em;
+  margin: 0 auto;
+  border-right: 2px solid #000000;
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translate(-50%)
+}
+container  {
+    width: 100%;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    top: 45%;
+    height: 100%;
+    padding-top: 19%;
+}
+
+
+.fade-in {
+    animation: fadeIn ease 20s;
+    -webkit-animation: fadeIn ease 20s;
+    -moz-animation: fadeIn ease 20s;
+    -o-animation: fadeIn ease 20s;
+    -ms-animation: fadeIn ease 20s;
+    top: 50%;
+    height: 100%;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+
+
+body body2 {
+}
+body container {
+}
